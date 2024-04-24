@@ -1,0 +1,18 @@
+1. Simple Linear Regression
+2. Multiple Linear Regression
+3. Logistic Regression
+4. K-nearest neighbor algorithm for classification
+5. Random Forest algorithm for classification
+6. Naïve Bayes algorithm for classification
+7. Support Vector Machine for classification
+8. Decision tree-based algorithm for classification
+9. Genetic algorithm for classification
+10. K-means algorithm for clustering
+11. Expectation-Maximization algorithm for clustering
+12. DBSCAN algorithm for clustering
+13. Value iteration
+14. Q learning
+15. Gradient boosting algorithm 
+16. AdaBoosting algorithm
+17. Multilayer Perceptron using backpropagation algorithm for classification
+18. PCA for dimensionality reduction
