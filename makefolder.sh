@@ -1,6 +1,9 @@
-while IFS= read -r line; do
-    # Create a directory for each line
-    mkdir "$line"
-done < "$1"
-
+exec < index.txt
+while IFS= read -r line
+do
+    mkdir "$line"    
+    cd "$line" || exit
+    touch instruct.txt
+    cd ..
+done
 echo "Directories created."
