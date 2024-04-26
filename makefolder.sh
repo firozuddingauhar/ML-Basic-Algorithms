@@ -1,5 +1,5 @@
 exec < index.txt
-while IFS= read -r line
+while read -r line
 do
     mkdir "$line"    
     cd "$line" || exit
